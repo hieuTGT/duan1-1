@@ -4,6 +4,7 @@
 
         public function __construct() {
             $this->pdo = connectDB();
+            echo "THành công";
         }
 
         public function __destruct() {
